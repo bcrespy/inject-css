@@ -1,23 +1,27 @@
 {
-  "name": "@creenv/slider",
+  "name": "@creenv/inject-css",
   "version": "0.0.1",
-  "description": "A simple slider, used by @creenv/gui",
+  "description": "Injects some css into the head, inline <style>",
   "keywords": [
     "creenv",
-    "slider"
+    "inject",
+    "css"
   ],
   "license": "MIT",
   "author": "Baptiste Crespy",
-  "homepage": "https://github.com/bcrespy/creenv-slider.git",
+  "homepage": "https://github.com/bcrespy/inject-css.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bcrespy/creenv-slider.git"
+    "url": "https://github.com/bcrespy/inject-css.git"
   },
   "bugs": {
     "mail": "baptiste.crespy@gmail.com",
-    "url": "https://github.com/bcrespy/creenv-slider/issues"
+    "url": "https://github.com/bcrespy/inject-css/issues"
   },
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "clean": "",
     "test": "cross-env NODE_ENV=test jest",
